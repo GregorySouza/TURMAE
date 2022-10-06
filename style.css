@@ -15,7 +15,7 @@ nav {
 }
 
 nav li {
-	display:  inline;
+	display:  inline-block;
 	margin: 0 0 0 15px;
 	padding: 10px;
 }
@@ -29,6 +29,7 @@ nav a {
 }
 
 nav a:hover {
+	display: inline-block;
 	color: #FF8C00;
 	text-decoration: underline;
 }
