@@ -5,6 +5,7 @@
 }
 
 .principal {
+	display: inline-block;
 	background: #CCCCCC
 }
 
