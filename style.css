@@ -103,7 +103,7 @@ form label {
 	margin: 0 0 10px;
 }
 
-form label, form p {
+form label, form legend {
     display:block;
     font-size: 20px;
     margin: 0 0 10px;
@@ -125,4 +125,15 @@ form input {
 
 .checkbox {
     margin: 20px 0;
+}
+
+.enviar {
+	width: 40%;
+	padding: 15px 0;
+	background: #FF8C00;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
 }
