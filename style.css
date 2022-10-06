@@ -103,13 +103,13 @@ form label {
 }
 
 form label, form p {
-    display:block;
+    display: inline;
     font-size: 20px;
     margin: 0 0 10px;
 }
 
 form input {
-    display: block;
+    display: inline;
     margin: 0 0 20px;
     padding: 10px 25px;
     width: 50%;
