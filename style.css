@@ -108,4 +108,6 @@ form label {
 
 form input {
 	display: block;
+	padding: 10px 25px;
+	width: 50%;
 }
