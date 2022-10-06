@@ -9,6 +9,7 @@
 }
 
 .titulo-principal {
+	display: inline-block;
 	padding-left: 20px;
 }
 
