@@ -1,6 +1,4 @@
-body {
-	
-}
+
 
 #banner {
 	width: 100%
@@ -52,14 +50,6 @@ p {
 
 em strong {
 	color:  #FF4500;
-}
-
-nav a {
-	text-transform: uppercase;
-	color: #000000;
-	font-weight: bold;
-	font-size: 15px;
-	text-decoration: none;
 }
 
 .itens {
