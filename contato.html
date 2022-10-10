@@ -27,36 +27,28 @@
         <main>
             <form>
                 <label for="nomesobrenome">Nome e Sobrenome</label>
-                <input type="text" id="nomesobrenome" required >
+                <input type="text" id="nomesobrenome" required class="input-padrao">
 
                 <label for="email">E-mail</label>
-                <input type="email" id="email"required placeholder="seuemail@dominio.com">
+                <input type="email" id="email"required placeholder="seuemail@dominio.com" class="input-padrao">
 
                 <label for="telefone">Telefone</label>
-                <input type="tel" id="telefone" required placeholder="(XX) XXXXX-XXXX">
+                <input type="tel" id="telefone" required placeholder="(XX) XXXXX-XXXX" class="input-padrao">
 
 				<label for="mensagem">Mensagem</label>
 				<textarea cols="70" rows="10" id="mensagem" class="input-padrao"></textarea>
 
-				<fieldset>
+				<fieldset class="formularios">
 					<legend>Como prefere o nosso contato?</legend>
-					<label for="radio-email">
-						<input type="radio" name="contato" value="email" id="radio-email">
-						Email
-					</label>
+					<label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email" class="formulario">Email</label>
 				
-					<label for="radio-telefone">
-						<input type="radio" name="contato" value="telefone" id="radio-telefone"> 
-						Telefone
-					</label>
+					<label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone" class="formulario"> Telefone</label>
 				
-					<label for="radio-whatsapp">
-						<input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked>
-						WhatsApp
-					</label>
+					<label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked class="formulario">WhatsApp</label>
+									
 				</fieldset>
 
-				<fieldset>
+				<fieldset class="formularios">
 					<legend>Qual horário prefere ser atendido?</legend>
 					<select>
 						<option>Manhã</option>
