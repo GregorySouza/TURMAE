@@ -28,6 +28,11 @@ li {
 	text-decoration: underline;
 }
 
+ul {
+	display: grid;
+	grid-template-columns: 2fr 1fr 1fr 1fr;
+}
+
 .produtos {
 	width: 940px;
 	margin: 0 auto;
