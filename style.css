@@ -8,19 +8,13 @@ header {
 	margin: 0 auto;
 }
 
- nav {
-	position: absolute;
-	top: 1;
-	right: 0;
+li {
+	display: inline;
+	margin-left: 10px;
+	color: white;
 }
 
- nav li {
-	display:  inline-block;
-	margin: 0 0 0 15px;
-	padding: 10px;
-}
-
- nav a {
+.links {
 	text-transform: uppercase;
 	color: #000000;
 	font-weight: bold;
@@ -28,7 +22,7 @@ header {
 	text-decoration: none;
 }
 
- nav a:hover {
+.links:hover {
 	display: inline-block;
 	color: #FF8C00;
 	text-decoration: underline;
