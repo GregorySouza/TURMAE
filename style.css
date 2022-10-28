@@ -58,13 +58,13 @@ ul {
 .produtos li {
 	display: inline-block;
 	text-align: center;
-	width: 30%;
 	vertical-align: top;
 	margin: 0 1.5%;
 	PADDING: 30px 20px;
 	box-sizing: border-box;
 	border: 2px solid #000000;
 	border-radius: 10px;
+	color: black;
 }
 .produtos h2 {
 	font-size: 25px;
