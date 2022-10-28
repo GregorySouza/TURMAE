@@ -212,7 +212,7 @@ td, th {
 
 .conteudo-beneficios {
     width: 640px;
-    margin: 0 auto;
+    margin: 3em auto;
 }
 
 .lista-beneficios {
@@ -234,7 +234,7 @@ td, th {
 }
 
 .imagem-beneficios {
-    width: 60%;
+    width: 50%;
 	opacity: 1;
 	transition: 400ms;
 	box-shadow: 10px 10px 10px #000000;
