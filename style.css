@@ -15,7 +15,7 @@ header {
 li {
 	display: inline;
 	margin-left: 10px;
-	color: white;
+	color: black;
 }
 
 .links {
@@ -69,6 +69,10 @@ ul {
 .produtos h2 {
 	font-size: 25px;
 	font-weight: bold;
+}
+
+p {
+	color: black;
 }
 
 .produto-descricao {
@@ -166,6 +170,7 @@ td, th {
 	text-align: center;
 	font-size: 2em;
 	margin: 0 0 1em;
+	box-shadow: 2px 2px rgba(0, 0, 255, 0.5);
 }
 
 .mapa-conteudo {
@@ -228,6 +233,13 @@ td, th {
 
 .imagem-beneficios {
     width: 60%;
+	opacity: 1;
+	transition: 400ms;
+	box-shadow: 10px 10px 10px #000000;
+}
+
+.imagem-beneficios:hover {
+	opacity: 0.3;
 }
 
 .mapa {
